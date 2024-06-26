@@ -1,5 +1,5 @@
 proxies:
-  - name: FAST
+  - name: trojan
     server: quiz.vidio.com
     port: 443
     type: trojan
