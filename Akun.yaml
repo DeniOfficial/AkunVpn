@@ -12,7 +12,7 @@ proxies:
       headers:
         Host: sg-4.test3.net
     udp: true
-  - name: Denn
+  - name: Denn Bug WA
     type: vmess
     server: w5.web.whatsapp.com
     port: 443
@@ -28,7 +28,7 @@ proxies:
       path: /PATH
       headers:
         Host: premiindo.vpnjantit.com
-  - name: sg3-trojan.bonds.id
+  - name: sg3-trojan.bonds.id Bug Vidio
     server: sg3-trojan.bonds.id
     port: 443
     type: trojan
