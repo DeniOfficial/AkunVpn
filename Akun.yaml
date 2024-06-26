@@ -28,3 +28,11 @@ proxies:
       path: /PATH
       headers:
         Host: whatsapp.com
+  - name: sg3-trojan.bonds.id
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 83352520-335e-11ef-b8a4-1239d0255272
+    skip-cert-verify: true
+    sni: quiz.int.vidio.com
+    udp: true
