@@ -12,19 +12,19 @@ proxies:
       headers:
         Host: sg-4.test3.net
     udp: true
-- name: Vmess WS (SNI)
-  type: vmess
-  server: SERVER.COM
-  port: 443
-  uuid: UUID
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: BUGSNI.COM
-  network: ws
-  ws-opts:
-    path: /PATH
-    headers:
-      Host: BUGSNI.COM
+ - name: Denn
+   type: vmess
+   server: premiindo.vpnjantit.com
+   port: 443
+   uuid: 0fd7c5a6-3356-11ef-b196-00163e01200d
+   alterId: 0
+   cipher: auto
+   udp: true
+   tls: true
+   skip-cert-verify: true
+   servername: whatsapp.com
+   network: ws
+   ws-opts:
+     path: /PATH
+     headers:
+       Host: whatsapp.com
