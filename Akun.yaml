@@ -1,38 +1,99 @@
 proxies:
-  - name: trojan
-    server: quiz.vidio.com
+  - name: Vidio
+    server: sg2-trojan.bonds.id
     port: 443
     type: trojan
-    password: 44c76770-fda2-11ee-9db7-1239d0255272
+    password: 006e7c70-337c-11ef-beff-1239d0255272
     skip-cert-verify: true
-    sni: sg-4.test3.net
+    sni: quiz.int.vidio.com
+    udp: true
+  - name: Bug Wa
+    server: sg2-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: fe6d1710-33b3-11ef-9fe6-1239d0255272
+    skip-cert-verify: true
+    sni: media.fcgk35-1.fna.whatsapp.net
+    udp: true
+  - name: FF
+    server: sgt-1.optnl.com
+    port: 443
+    type: trojan
+    password: opentunnel.net-denn
+    skip-cert-verify: true
+    sni: dl.cvs.freefiremobile.com
+    udp: true
+  - name: Rguru
+    server: id-full.privateip.net
+    port: 443
+    type: trojan
+    password: a9068131-63ac-42c8-b623-b8c904418679
+    skip-cert-verify: true
+    sni: s.udemycdn.com
+    udp: true
+  - name: Trial-TR256
+    server: premium.ryankptr.my.id
+    port: 443
+    type: trojan
+    password: 2aac7fd6-5701-46bb-a3a2-d52d5899ad96
+    skip-cert-verify: true
+    sni: s.udemycdn.com
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: premium.ryankptr.my.id
+    udp: true
+  - name: Bebas
+    server: sg1-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 1b7145e0-3492-11ef-843a-1239d0255272
+    skip-cert-verify: true
+    sni: ""
+    udp: true
+  - name: RGuru D
+    server: sg2-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 397e5160-3492-11ef-b46e-1239d0255272
+    skip-cert-verify: true
+    sni: s.udemycdn.com
+    udp: true
+  - name: FF D
+    server: sg3-trojan.bonds.id
+    port: 443
+    type: trojan
+    password: 455f8c80-3492-11ef-b8bc-1239d0255272
+    skip-cert-verify: true
+    sni: ""
+    udp: true
+  - name: Wa D
+    server: sg-1.hihu.net
+    port: 443
+    type: vmess
+    uuid: 752e1610-3492-11ef-b936-205c6d5f5d78
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: s.udemycdn.com
+    network: ws
+  - name: Edu
+    server: s.udemycdn.com
+    port: 443
+    type: trojan
+    password: fe6d1710-33b3-11ef-9fe6-1239d0255272
+    skip-cert-verify: true
+    sni: sg2-trojan.bonds.id
     network: ws
     ws-opts:
       path: /howdy
       headers:
-        Host: sg-4.test3.net
+        Host: sg2-trojan.bonds.id
     udp: true
-  - name: Denn Bug WA
-    type: vmess
-    server: w5.web.whatsapp.com
-    port: 443
-    uuid: 0fd7c5a6-3356-11ef-b196-00163e01200d
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: premiindo.vpnjantit.com
-    network: ws
     ws-opts:
-      path: /PATH
+      path: /emp8os0a
       headers:
-        Host: premiindo.vpnjantit.com
-  - name: sg3-trojan.bonds.id Bug Vidio
-    server: sg3-trojan.bonds.id
-    port: 443
-    type: trojan
-    password: 83352520-335e-11ef-b8a4-1239d0255272
-    skip-cert-verify: true
-    sni: quiz.int.vidio.com
+        Host: s.udemycdn.com
     udp: true
